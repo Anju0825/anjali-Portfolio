@@ -9,7 +9,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col items-center justify-center text-center px-4">
 
         <motion.img
-          src="/anjali.jpg"
+          src="/images/anjali.jpg"
           
           className="w-44 h-44 rounded-full object-cover border-4 border-indigo-500 glow mb-6"
           initial={{ opacity: 0, scale: 0.8 }}
