@@ -10,9 +10,11 @@ export default function Home() {
 
         <motion.img
           src="/anjali.jpg"
+          alt="Anjali Mishra"
           className="w-44 h-44 rounded-full object-cover border-4 border-indigo-500 glow mb-6"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
         />
 
         <motion.h1
